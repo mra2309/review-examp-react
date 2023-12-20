@@ -5,7 +5,10 @@ import Rent from "./Pages/Rent";
 import Navbar from "./Components/Navbar";
 
 function App() {
+  //pake state
   const [user, setUser] = useState({ user: "Dilya", balance: 100000 });
+
+  //pake redux
 
   return (
     <Ruter>
